@@ -1,0 +1,49 @@
+{
+  "name": "netlify-copy-env-vars",
+  "description": "Copy env vars from one site to another",
+  "version": "0.0.0",
+  "author": "Craig Morris @morrislaptop",
+  "bin": {
+    "netlify-copy-env-vars": "./bin/run"
+  },
+  "bugs": "https://github.com/morrislaptop/netlify-copy-env-vars/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2",
+    "@types/fs-extra": "^8.0.1",
+    "fs-extra": "^8.1.0",
+    "netlify": "^2.4.8",
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@oclif/tslint": "^3",
+    "@types/node": "^10",
+    "ts-node": "^8",
+    "tslint": "^5",
+    "typescript": "^3.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/morrislaptop/netlify-copy-env-vars",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "netlify-copy-env-vars"
+  },
+  "repository": "morrislaptop/netlify-copy-env-vars",
+  "scripts": {
+    "posttest": "tslint -p . -t stylish",
+    "prepack": "rm -rf lib && tsc -b",
+    "test": "echo NO TESTS"
+  },
+  "types": "lib/index.d.ts"
+}

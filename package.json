@@ -1,7 +1,7 @@
 {
   "name": "netlify-copy-env-vars",
   "description": "Copy env vars from one site to another",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Craig Morris @morrislaptop",
   "bin": {
     "netlify-copy-env-vars": "./bin/run"

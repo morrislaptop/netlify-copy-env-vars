@@ -10,4 +10,4 @@ Copy env vars from one site to another
 
 # Usage
 
-npx netlify-copy-env-vars from-site-domain to-site-domain --token=23453153asdfasfdadcacafrfdafdasffdsa
+    npx netlify-copy-env-vars from-site-domain to-site-domain --token=23453153asdfasfdadcacafrfdafdasffdsa
